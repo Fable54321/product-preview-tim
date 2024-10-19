@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+
+  <link rel="stylesheet" href="./Styles/index.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header-image">
+      <picture>
+        <source media="(min-width: 45em)" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="a perfume bottle" />
+      </picture>
+    </div>
+    <div class="secondary-wrapper">
+    <header>
+      <div class="header-title">
+        <h2 class="font-family-primary font-weight-medium font-size-smallest text-color-primary">P E R F U M E</h2>
+    
+        <h1 class="font-family-secondary font-size-heading text-color-dark top-margin">Gabrielle Essence Eau De Parfum</h1>
+      </div>
+    </header>
+  
+    <main>
+      <section class="text-body">
+        <p class="font-family-primary font-weight-medium font-size-primary text-color-primary top-margin">A floral, solar and voluptuous interpretation
+          composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+      </section>
+      <section class="top-margin-extra">
+        <div class =prices>
+        <p class="font-family-secondary font-size-heading text-color-accent">$149.99</p>
+        <p class="font-family-primary font-weight-medium font-size-small text-color-primary" data-crossed="data-crossed">$169.99</p>
+        </div>
+        <div class="cta | top-margin-extra-dtop-only">
+          <img src="./images/icon-cart.svg" alt="icon of a shopping cart"/>
+          <a href="#" class="font-family-primary font-weight-bold font-size-primary text-color-light">Add to Cart</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  </div>
+</body>
+</html>

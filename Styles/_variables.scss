@@ -1,0 +1,28 @@
+/* colors */
+
+$clr-neutral-100: hsl(0,0%,100%);
+$clr-neutral-200: hsl(30, 38%, 92%);
+
+$clr-neutral-600: hsl(228, 12%, 48%);
+$clr-neutral-900: hsl(212, 21%, 14%);
+
+$clr-accent-600: hsl(158, 36%, 37%);
+$clr-accent-hover: hsl(152, 43%, 18%);
+
+/* typography */
+
+$ff-primary: "Montserrat", "sans-serif";
+$ff-secondary: "Fraunces", "sans-serif";
+
+$fw-primary: 500;
+$fw-secondary: 700;
+
+$fs-200: 12px;
+$fs-250: 13px;
+$fs-300: 14px;
+$fs-900: 32px;
+
+/*widths */
+
+$max-width-mobile: 343px;
+$max-width-desktop: 600px;

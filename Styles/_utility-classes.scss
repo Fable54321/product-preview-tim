@@ -1,0 +1,76 @@
+@use "variables" as *;
+
+.font-family-primary {
+    font-family: $ff-primary;
+}
+
+.font-family-secondary {
+    font-family: $ff-secondary;
+}
+
+.font-weight-medium {
+    font-weight: $fw-primary;
+}
+
+.font-weight-bold {
+    font-weight: $fw-secondary;
+}
+
+.font-size-heading {
+    font-size: $fs-900;
+}
+
+.font-size-primary {
+    font-size: $fs-300;
+}
+
+.font-size-small {
+    font-size: $fs-250;
+}
+
+.font-size-smallest {
+    font-size: $fs-200;
+}
+
+.text-color-primary {
+    color: $clr-neutral-600;
+}
+
+.text-color-light {
+    color: $clr-neutral-100;
+}
+
+.text-color-dark {
+    color: $clr-neutral-900;
+}
+
+.text-color-accent {
+    color: $clr-accent-600;
+}
+
+
+.top-margin {
+    margin-top: 14px;
+}
+
+.top-margin-extra-dtop-only {
+    margin-top: 14px;
+}
+
+.top-margin-extra {
+    margin-top: 24px;
+}
+
+@media(min-width: 45em) {
+    .top-margin {
+        margin-top: 18px;
+    }
+    
+    .top-margin-extra {
+        margin-top: 28px;
+    }
+
+    .top-margin-extra-dtop-only {
+        margin-top: 28px;
+    }
+}
